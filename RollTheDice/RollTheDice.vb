@@ -1,7 +1,7 @@
 ﻿'Jamison Burton
 'RCET 0265
 'Spring 2022
-'PUT URL HERE!!!
+'https://github.com/Reimonoe17/RollTheDice
 Module RollTheDice
 
     Sub Main()
