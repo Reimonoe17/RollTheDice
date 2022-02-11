@@ -7,8 +7,8 @@ Module RollTheDice
     Sub Main()
         Dim firstRoll As Integer
         Dim secondRoll As Integer
-        Dim Roll(11) As Integer
-        Dim Result(11) As Integer
+        Dim Roll(12) As Integer
+        Dim Result(12) As Integer
 
         Console.WriteLine("Roll of the Dice")
         Console.WriteLine((StrDup(70, "-")))
@@ -16,6 +16,7 @@ Module RollTheDice
         For i = 0 To 99
             firstRoll = RollDice()
             secondRoll = RollDice()
+            Result(firstRoll + secondRoll) += 1
         Next
 
         Console.ReadLine()
